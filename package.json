@@ -1,0 +1,15 @@
+{
+  "name": "artist-profile-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Demo Node.js HTTP service for artist profiles.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  }
+}

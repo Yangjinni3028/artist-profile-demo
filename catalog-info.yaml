@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: artist-profile-demo
+  description: Demo Node.js service that serves artist profile data.
+  annotations:
+    github.com/project-slug: Yangjinni3028/artist-profile-demo
+    backstage.io/source-location: url:https://github.com/Yangjinni3028/artist-profile-demo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/guest
